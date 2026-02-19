@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+pypi_Igor_solop.egg-info/PKG-INFO
+pypi_Igor_solop.egg-info/SOURCES.txt
+pypi_Igor_solop.egg-info/dependency_links.txt
+pypi_Igor_solop.egg-info/entry_points.txt
+pypi_Igor_solop.egg-info/requires.txt
+pypi_Igor_solop.egg-info/top_level.txt
+pypy/__init__.py
+pypy/hola_mundo.py

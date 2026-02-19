@@ -1,0 +1,32 @@
+from setuptools import setup
+import pathlib
+ 
+# Carpeta raíz del proyecto
+BASE_DIR = pathlib.Path(__file__).parent
+ 
+# Leer el README
+README = (BASE_DIR / "README.md").read_text()
+ 
+setup(
+    name="pypi_Igor_solop",
+    version="0.0.1",
+    description="Hola mundo con PySide6",
+    long_description=README,
+    long_description_content_type="text/markdown",
+    author="Igor",
+    author_email="igor@email.com",
+    license="MIT",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+    ],
+    packages=["pypy"],
+    include_package_data=True,
+    install_requires=["PySide6"],
+    entry_points={
+        "console_scripts": [
+            "pypy_Igor=pypy.hola_mundo:main"
+        ]
+    },
+)
+

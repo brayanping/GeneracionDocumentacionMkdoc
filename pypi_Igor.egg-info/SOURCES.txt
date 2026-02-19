@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+pypi_Igor.egg-info/PKG-INFO
+pypi_Igor.egg-info/SOURCES.txt
+pypi_Igor.egg-info/dependency_links.txt
+pypi_Igor.egg-info/entry_points.txt
+pypi_Igor.egg-info/requires.txt
+pypi_Igor.egg-info/top_level.txt
+pypy/__init__.py
+pypy/hola_mundo.py

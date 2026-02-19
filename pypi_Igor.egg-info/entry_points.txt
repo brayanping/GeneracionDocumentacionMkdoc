@@ -1,0 +1,2 @@
+[console_scripts]
+pypy_Igor = pypy.hola_mundo:main
