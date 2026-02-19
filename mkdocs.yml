@@ -1,5 +1,9 @@
-site_name: My Docs
-nav:
-  - Home: index.md
-  - Sobre el proyecto: about.md
-  
+site_name: Hola Mundo PySide6
+ 
+theme:
+  name: material
+ 
+plugins:
+  - search
+  - pdf-export:
+      combined: true
